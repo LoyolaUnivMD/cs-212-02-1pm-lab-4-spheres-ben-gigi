@@ -1,1 +1,27 @@
- Design goes here
+Create class Sphere
+    Declare variables
+    Create default values for variables
+    Create a method to calculate the surface area
+        formula: 4 * pi * r^2
+    Create a method to calculate the volume of the sphere
+        formula: 4/3 * pi * r^3
+    Create a method to calculate the distance from the center of the sphere to the arbitrary point
+        formula: sqrt{ (x_1-x_2)^2 + (y_1-y_2)^2 + (z_1-z_2)^2}
+    Create a method to determine whether the two spheres will collide by
+        comparing whether the distance between the centers is less than the sum of the two radii
+        If true,
+            they collide
+        Otherwise,
+            they don't collide
+
+Create class Main
+    Tell the user the purpose of the program
+    Create the objects:
+        Sun - radius: 43.26, x: 0, y: 0, z: 0
+        Earth - radius: 0.395, x: 26, y: 42, z: 79
+        PlanetX - radius: 1.4, x: 25.3, y: 43.1, z: 77.8
+    Output the distance from the center of each spherical object using the calcDistanceFromCenter method
+    Output the surface area of each spherical object using the calcSurfaceArea method
+    Output the volume of each spherical object using the calcVolume method
+    Output whether the two spherical objects are colliding using the isColliding method
+    Thank the user for using the program
