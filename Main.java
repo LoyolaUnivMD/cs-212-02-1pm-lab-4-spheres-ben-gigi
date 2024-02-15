@@ -42,6 +42,7 @@ class Main {
         System.out.println("Earth and PlanetX: " + Sphere.isColliding(earth, planetX));
         System.out.println("PlanetX and Sun: " + Sphere.isColliding(planetX, sun));
 
+        //thank the user for using this program
         System.out.println("\n Thank you for using this program.");
     }
 }
